@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:id="@+id/linearMenu"
+    android:background="@color/White">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/linearTop"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:src="@drawable/ic_star"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/_15ssp"
+                android:text="top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:clickable="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/linearAll"
+            android:layout_below="@id/linearTop"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:src="@drawable/ic_all"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/_15ssp"
+                android:text="Tất cả"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:id="@+id/linearLogout"
+            android:layout_below="@id/linearAll"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:src="@drawable/ic_logout"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp" />
+            <TextView
+                android:clickable="false"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/_15ssp"
+                android:text="Đăng xuất"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

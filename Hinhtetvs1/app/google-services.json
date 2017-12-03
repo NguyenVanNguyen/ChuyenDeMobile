@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1086497163552",
+    "firebase_url": "https://hinhtetvs1.firebaseio.com",
+    "project_id": "hinhtetvs1",
+    "storage_bucket": "hinhtetvs1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086497163552:android:b5046174c61b8c58",
+        "android_client_info": {
+          "package_name": "com.example.holu.hinhtetvs1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086497163552-pj5jvh03sqlvmo406docuo2qpnlkjul7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.holu.hinhtetvs1",
+            "certificate_hash": "2263237c24005a443e0201c166acb3fadf233dcc"
+          }
+        },
+        {
+          "client_id": "1086497163552-li8fpnk7egcoevk2d6pc58pokv0i5lfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtlvEZ2yQ7VyhVt-R_J4RbE6BV_tHg8cU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086497163552-li8fpnk7egcoevk2d6pc58pokv0i5lfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
